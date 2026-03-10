@@ -18,13 +18,13 @@ $message = $_POST['message'];
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'tvojgmail@gmail.com';
+$mail->Username = 'urosh.ognjanovic2@gmail.com';
 $mail->Password = 'iiln jfds abqq orey';
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
-$mail->setFrom('tvojgmail@gmail.com', 'Website Contact');
-$mail->addAddress('tvojgmail@gmail.com');
+$mail->setFrom('urosh.ognjanovic2@gmail.com', 'Website Contact');
+$mail->addAddress('urosh.ognjanovic2@gmail.com');
 
 $mail->Subject = 'Nova poruka sa sajta';
 
@@ -46,5 +46,6 @@ echo "Poruka je uspešno poslata!";
 echo "Greška: {$mail->ErrorInfo}";
 
 }
+
 
 ?>

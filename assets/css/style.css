@@ -388,6 +388,11 @@
     .send-btn:hover{
     background:#28b463;
     }
+    input[type=text],input[type=text]::placeholder,
+    input[type=email],input[type=email]::placeholder,
+    textarea[name="message"],textarea[name="message"]::placeholder{
+    color:rgb(70, 70, 70);
+    }
     /*FOOTER */
 
     .footer{
@@ -450,6 +455,7 @@
 }
 
  
+
 
 
 

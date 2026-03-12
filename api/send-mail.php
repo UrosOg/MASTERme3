@@ -39,14 +39,15 @@ $message
 
 $mail->send();
 
-echo '<script>alert("Your message has been sent successfully!"); window.location="index.html";</script>';
+echo '<script>alert("Your message has been sent successfully!"); window.location="index.html#contact1";</script>';
 
 } catch (Exception $e) {
 
-echo '<script>alert("Error: Your message was not sent!"); window.location="index.html";</script>';
+echo '<script>alert("Error: Your message was not sent!"); window.location="index.html#contact1";</script>';
 
 }
 
 
 ?>
+
 

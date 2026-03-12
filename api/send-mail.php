@@ -39,13 +39,14 @@ $message
 
 $mail->send();
 
-echo "Poruka je uspešno poslata!";
+echo '<script>alert("Your message has been sent successfully!"); window.location="index.html";</script>';
 
 } catch (Exception $e) {
 
-echo "Greška: {$mail->ErrorInfo}";
+echo '<script>alert("Error: Your message was not sent!"); window.location="index.html";</script>';
 
 }
 
 
 ?>
+

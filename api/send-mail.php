@@ -18,13 +18,13 @@ $message = $_POST['message'];
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'urosh.ognjanovic2@gmail.com';
+$mail->Username = 'masterme26122025@gmail.com';
 $mail->Password = 'iiln jfds abqq orey';
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
-$mail->setFrom('urosh.ognjanovic2@gmail.com', 'Website Contact');
-$mail->addAddress('urosh.ognjanovic2@gmail.com');
+$mail->setFrom('masterme26122025@gmail.com', 'Website Contact');
+$mail->addAddress('masterme26122025@gmail.com');
 
 $mail->Subject = 'Nova poruka sa sajta';
 
